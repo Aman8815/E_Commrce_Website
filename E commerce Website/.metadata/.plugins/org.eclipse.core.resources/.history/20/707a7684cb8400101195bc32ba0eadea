@@ -1,0 +1,21 @@
+package com.rays.entites;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+
+public class User {
+	@Id
+	@Column(length = 500, name = "user_id")
+	private int userId;
+	@Column(length = 500, name = "user_name")
+	private String userName;
+	@Column(length = 500, name = "user_email")
+	private String userEmail;
+	@Column(length = 500, name = "user_password")
+	private String userPassword;
+	@Column(length = 500, name = "user_pic")
+	private String userPic;
+	@Column(length = 500, name = "user_address")
+	private String userAddress;
+
+}

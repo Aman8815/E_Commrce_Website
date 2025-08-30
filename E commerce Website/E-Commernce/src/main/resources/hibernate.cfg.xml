@@ -14,13 +14,10 @@
 		<property name="show_sql">true</property>
 		<property name="format_sql">true</property>
 
-		<mapping resource="com/rays/user/UserDTO.hbm.xml" /> 
-		
-		<!-- <mapping resource="com/rays/auction/AuctionItem.hbm.xml" />
-		<mapping resource="com/rays/auction/Bid.hbm.xml" />    -->  
-		
-		<!--  <mapping resource="com/rays/oneone/Employee.hbm.xml" />
-		<mapping resource="com/rays/oneone/Address.hbm.xml" />  -->
+		<mapping resource="com/rays/entities/User" /> 
+		<mapping resource="com/rays/entities/Category" /> 
+		<mapping resource="com/rays/entities/Product" /> 
+	
         
     </session-factory>
 </hibernate-configuration>
