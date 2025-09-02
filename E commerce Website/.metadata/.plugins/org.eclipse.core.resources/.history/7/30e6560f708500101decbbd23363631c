@@ -10,13 +10,13 @@
         <property name="hibernate.connection.username">root</property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         
-        <property name="hbm2ddl.auto">create</property>
+        <property name="hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property>
 		<property name="format_sql">true</property>
 
-		<mapping class="com.rays.entities.User" /> 
-		<mapping class="com.rays.entities.Category" /> 
-		<mapping class="com.rays.entities.Product" /> 
+		<mapping resource="com/rays/entities/User.java" /> 
+		<mapping resource="com.rays.entities.Category" /> 
+		<mapping resource="com.rays.entities.Product" /> 
 	
         
     </session-factory>

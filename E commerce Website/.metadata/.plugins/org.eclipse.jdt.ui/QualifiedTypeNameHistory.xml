@@ -11,4 +11,6 @@
     <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
     <fullyQualifiedTypeName name="com.rays.entites.Category"/>
     <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="com.rays.entities.User"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
 </qualifiedTypeNameHistroy>

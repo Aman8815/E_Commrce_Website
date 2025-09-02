@@ -1,0 +1,19 @@
+package com.rays.entities;
+
+public class test {
+	
+	public static void main(String[] args) {
+		user();
+	}
+
+	private static void user() {
+		User user = new User();
+		user.setUserName("aman");
+		user.setUserPassword("123");
+		user.setUserAddress("indore");
+		user.setUserEmail("amanyashona@gmail.com");
+		user.setUserPic("user");
+		
+	}
+
+}
